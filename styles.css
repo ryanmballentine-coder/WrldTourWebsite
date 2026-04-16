@@ -1,0 +1,122 @@
+/* GLOBAL */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #eaf4ff;
+  color: #1e293b;
+}
+
+/* HEADER WITH LOGO */
+header {
+  background: #4da6ff;
+  padding: 10px;
+  text-align: center;
+}
+
+header img {
+  height: 50px;
+}
+
+/* HERO FIX (CENTERED) */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.hero p {
+  margin-bottom: 20px;
+}
+
+/* LAYOUT */
+.container {
+  padding: 20px;
+  padding-bottom: 100px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* IMAGES (CONSISTENT) */
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* BUTTONS */
+button {
+  background: #4da6ff;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* CHAT */
+.chat-item {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.message {
+  background: #dbeafe;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.message.me {
+  background: #93c5fd;
+  text-align: right;
+}
+
+/* NAV */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background: #4da6ff;
+  padding: 10px;
+}
+
+.bottom-nav a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  img {
+    height: 180px;
+  }
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
